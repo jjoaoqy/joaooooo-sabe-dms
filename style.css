@@ -87,7 +87,8 @@ body {
 
 @font-face {
     font-family: 'edil';
-    src: url('Nicolast.ttf') format('truetype'),
+    src: url('Nicolast.ttf') format('woff2'),
+         url('Nicolast.ttf') format('woff');
     
   }
 @media screen and (min-width: 768px) {
