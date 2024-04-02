@@ -30,6 +30,8 @@ body {
     text-align: left;
     width: 100%;
     font-size: 32px;
+    font-family: 'edil', sans-serif;
+}
 }
 .titulo-principal span {
     color: var(--verde);
