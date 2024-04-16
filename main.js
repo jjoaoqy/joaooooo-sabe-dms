@@ -1,3 +1,4 @@
+const botoes = document.querySelectorAll(".botao");
 const textos = document.querySelectorAll(".aba-conteudo");
 for(let i=0; i<botoes.length; i++){
     botoes[i].onclick = function(){
@@ -25,3 +26,4 @@ function calculaTempo(tempoObjetivo) {
     minutos %= 60;
     horas %= 24;
     return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";
+}
